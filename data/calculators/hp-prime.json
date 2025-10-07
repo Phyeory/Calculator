@@ -1,0 +1,17 @@
+{
+  "slug": "hp-prime",
+  "brand": "HP",
+  "model": "HP Prime",
+  "image": "/images/calculators/hp-prime.webp",
+  "alt_text": "HP Prime graphing calculator",
+  "type": "graphing",
+  "features": {
+    "graphing": true,
+    "programmable": true,
+    "symbolic": true,
+    "examMode": true,
+    "cas": true
+  },
+  "notes": "Advanced CAS calculator with touchscreen. Allowed in SAT and ACT. Banned in IB, GCSE, A-Level due to symbolic algebra capabilities. Features exam mode for compliance.",
+  "related_models": ["hp-50g"]
+}

@@ -1,0 +1,7 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="300" height="300" rx="10" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="80" y="70" width="240" height="50" rx="5" fill="#10b981"/>
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">CASIO fx-85GT X</text>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">SOLAR POWERED</text>
+</svg>

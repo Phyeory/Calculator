@@ -1,0 +1,21 @@
+{
+  "slug": "cbse",
+  "name": "CBSE Board Exams (India)",
+  "regions": ["India"],
+  "last_updated": "2025-08-01",
+  "notes": "Basic calculators allowed for specific subjects (not for Mathematics). Check subject-specific guidelines.",
+  "allowed": ["casio-fx-82ms", "casio-fx-100ms", "basic-calculators"],
+  "conditional": [
+    {
+      "model": "casio-fx-82ms",
+      "condition": "Allowed only for Physics, Chemistry, and Commerce subjects. Not allowed in Mathematics exams."
+    }
+  ],
+  "banned": ["casio-fx-991ex", "ti-84-plus-ce", "graphing-calculators", "scientific-calculators-in-math"],
+  "official_links": [
+    {
+      "title": "CBSE Exam Instructions",
+      "url": "https://www.cbse.gov.in/"
+    }
+  ]
+}

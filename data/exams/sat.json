@@ -1,0 +1,25 @@
+{
+  "slug": "sat",
+  "name": "SAT (US)",
+  "regions": ["US", "International"],
+  "last_updated": "2025-09-10",
+  "notes": "Calculators allowed only on Math section. Four-function, scientific, and graphing calculators permitted. No QWERTY keyboards or internet connectivity.",
+  "allowed": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "casio-fx-9860giii", "hp-prime"],
+  "conditional": [
+    {
+      "model": "ti-nspire-cx-ii",
+      "condition": "Allowed in both CAS and non-CAS versions. Remove all external keyboards."
+    },
+    {
+      "model": "hp-prime",
+      "condition": "Allowed. Must clear user-created programs if requested by proctor."
+    }
+  ],
+  "banned": ["ti-89-titanium", "casio-classpad-ii"],
+  "official_links": [
+    {
+      "title": "College Board Calculator Policy",
+      "url": "https://satsuite.collegeboard.org/sat/what-to-bring-do/calculator-policy"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "ti-30xs",
+  "brand": "Texas Instruments",
+  "model": "TI-30XS MultiView",
+  "image": "/images/calculators/ti-30xs.webp",
+  "alt_text": "Texas Instruments TI-30XS MultiView scientific calculator",
+  "type": "scientific",
+  "features": {
+    "graphing": false,
+    "programmable": false,
+    "symbolic": false,
+    "examMode": false,
+    "cas": false
+  },
+  "notes": "Approved for SAT, ACT, and many standardized tests. Four-line display with multi-view capability. Solar and battery powered for reliability.",
+  "related_models": ["ti-30xb", "ti-36x-pro"]
+}

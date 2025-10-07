@@ -1,0 +1,25 @@
+{
+  "slug": "ap-calculus",
+  "name": "AP Calculus AB/BC",
+  "regions": ["US", "International"],
+  "last_updated": "2025-08-20",
+  "notes": "Graphing calculators required for certain sections. Must have specific capabilities: graph functions, solve equations, calculate derivatives/integrals numerically.",
+  "allowed": ["ti-84-plus-ce", "ti-nspire-cx-ii", "casio-fx-9860giii", "hp-prime"],
+  "conditional": [
+    {
+      "model": "ti-nspire-cx-ii-cas",
+      "condition": "CAS models allowed. Symbolic manipulation acceptable for AP Calculus."
+    },
+    {
+      "model": "ti-89-titanium",
+      "condition": "Allowed but outdated. Ensure battery is fresh."
+    }
+  ],
+  "banned": ["casio-fx-991ex", "ti-30xs"],
+  "official_links": [
+    {
+      "title": "AP Calculus Calculator Policy",
+      "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab/assessment"
+    }
+  ]
+}

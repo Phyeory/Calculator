@@ -1,0 +1,22 @@
+{
+  "slug": "a-level",
+  "name": "A-Level (UK)",
+  "regions": ["UK"],
+  "boards": ["AQA", "Edexcel", "OCR", "WJEC"],
+  "last_updated": "2025-09-01",
+  "notes": "Scientific calculators are allowed. Graphing calculators generally banned. Check with your exam board for specific requirements.",
+  "allowed": ["casio-fx-991ex", "casio-fx-83gtx", "casio-fx-85gtx", "ti-30xs", "sharp-el-w516x"],
+  "conditional": [
+    {
+      "model": "casio-fx-991ex",
+      "condition": "Allowed in most A-Level exams. Some boards require exam mode or memory clear."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii", "casio-fx-cg50", "hp-prime", "ti-84-plus-ce", "ti-89-titanium"],
+  "official_links": [
+    {
+      "title": "AQA A-Level Calculator Policy",
+      "url": "https://www.aqa.org.uk/subjects/mathematics/as-and-a-level"
+    }
+  ]
+}

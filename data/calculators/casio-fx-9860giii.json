@@ -1,0 +1,17 @@
+{
+  "slug": "casio-fx-9860giii",
+  "brand": "Casio",
+  "model": "fx-9860GIII",
+  "image": "/images/calculators/casio-fx-9860giii.webp",
+  "alt_text": "Casio fx-9860GIII graphing calculator",
+  "type": "graphing",
+  "features": {
+    "graphing": true,
+    "programmable": true,
+    "symbolic": false,
+    "examMode": true,
+    "cas": false
+  },
+  "notes": "Graphing calculator allowed in IB, SAT, ACT, and AP exams. Exam mode disables program execution. High-resolution screen with 8 lines of display.",
+  "related_models": ["casio-fx-cg50"]
+}

@@ -1,0 +1,10 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="300" height="300" rx="10" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="80" y="80" width="240" height="60" rx="5" fill="#e5e7eb"/>
+  <text x="200" y="115" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">CASIO fx-83GT X</text>
+  <rect x="100" y="160" width="40" height="35" rx="3" fill="#3b82f6"/>
+  <rect x="150" y="160" width="40" height="35" rx="3" fill="#3b82f6"/>
+  <rect x="200" y="160" width="40" height="35" rx="3" fill="#3b82f6"/>
+  <rect x="250" y="160" width="40" height="35" rx="3" fill="#3b82f6"/>
+</svg>

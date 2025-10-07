@@ -1,0 +1,17 @@
+{
+  "slug": "casio-fx-85gtx",
+  "brand": "Casio",
+  "model": "fx-85GT X",
+  "image": "/images/calculators/casio-fx-85gtx.webp",
+  "alt_text": "Casio fx-85GT X scientific calculator",
+  "type": "scientific",
+  "features": {
+    "graphing": false,
+    "programmable": false,
+    "symbolic": false,
+    "examMode": false,
+    "cas": false
+  },
+  "notes": "Solar-powered version of fx-83GT X. Approved for UK exams. Identical functionality to fx-83GT X with eco-friendly solar power.",
+  "related_models": ["casio-fx-83gtx", "casio-fx-991ex"]
+}

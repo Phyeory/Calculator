@@ -1,0 +1,21 @@
+{
+  "slug": "act",
+  "name": "ACT (US)",
+  "regions": ["US", "International"],
+  "last_updated": "2025-09-10",
+  "notes": "Calculators permitted only on Math section. Most scientific and graphing calculators allowed. No devices with QWERTY keyboards.",
+  "allowed": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "casio-fx-9860giii", "hp-prime"],
+  "conditional": [
+    {
+      "model": "ti-nspire-cx-ii-cas",
+      "condition": "CAS calculators allowed. Must remove keyboard attachment if present."
+    }
+  ],
+  "banned": ["ti-89-titanium"],
+  "official_links": [
+    {
+      "title": "ACT Calculator Policy",
+      "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-day/calculator-policy.html"
+    }
+  ]
+}

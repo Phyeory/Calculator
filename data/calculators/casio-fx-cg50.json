@@ -1,0 +1,17 @@
+{
+  "slug": "casio-fx-cg50",
+  "brand": "Casio",
+  "model": "fx-CG50",
+  "image": "/images/calculators/casio-fx-cg50.webp",
+  "alt_text": "Casio fx-CG50 PRIZM color graphing calculator",
+  "type": "graphing",
+  "features": {
+    "graphing": true,
+    "programmable": true,
+    "symbolic": false,
+    "examMode": true,
+    "cas": false
+  },
+  "notes": "Color graphing calculator with exam mode. Allowed in SAT, ACT, IB with proper exam mode setup. Banned in most UK exams. Features natural textbook display and 3D graphing.",
+  "related_models": ["casio-fx-9860giii"]
+}

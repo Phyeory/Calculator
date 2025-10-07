@@ -1,0 +1,26 @@
+{
+  "slug": "gcse",
+  "name": "GCSE (UK)",
+  "regions": ["UK"],
+  "boards": ["AQA", "Edexcel", "OCR", "WJEC"],
+  "last_updated": "2025-09-01",
+  "notes": "Calculator rules vary by exam board. Most allow scientific calculators, but check specific board requirements. Programmable calculators are generally banned.",
+  "allowed": ["casio-fx-991ex", "casio-fx-83gtx", "casio-fx-85gtx", "ti-30xs", "ti-30xb"],
+  "conditional": [
+    {
+      "model": "casio-fx-991ex",
+      "condition": "Allowed by most boards. Must clear memory before exam if required by invigilator."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii", "casio-fx-cg50", "hp-prime", "ti-84-plus-ce"],
+  "official_links": [
+    {
+      "title": "AQA Calculator Policy",
+      "url": "https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300/teaching-resources"
+    },
+    {
+      "title": "Edexcel Equipment Policy",
+      "url": "https://qualifications.pearson.com/en/support/support-topics/exams/exam-guidance.html"
+    }
+  ]
+}

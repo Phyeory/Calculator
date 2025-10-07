@@ -1,0 +1,17 @@
+{
+  "slug": "ti-84-plus-ce",
+  "brand": "Texas Instruments",
+  "model": "TI-84 Plus CE",
+  "image": "/images/calculators/ti-84-plus-ce.webp",
+  "alt_text": "Texas Instruments TI-84 Plus CE graphing calculator",
+  "type": "graphing",
+  "features": {
+    "graphing": true,
+    "programmable": true,
+    "symbolic": false,
+    "examMode": true,
+    "cas": false
+  },
+  "notes": "Popular graphing calculator for SAT, ACT, and AP exams. Features Press-to-Test mode for exam compliance. Color screen with rechargeable battery. Not allowed in most UK exams.",
+  "related_models": ["ti-84-plus", "ti-83-plus"]
+}

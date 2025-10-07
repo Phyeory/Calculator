@@ -1,0 +1,7 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="300" height="300" rx="10" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <rect x="80" y="80" width="240" height="60" rx="5" fill="#3b82f6"/>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">TI-30XS MultiView</text>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="8" fill="#dbeafe" text-anchor="middle">TEXAS INSTRUMENTS</text>
+</svg>

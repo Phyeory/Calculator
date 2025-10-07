@@ -1,0 +1,17 @@
+{
+  "slug": "casio-fx-991ex",
+  "brand": "Casio",
+  "model": "fx-991EX ClassWiz",
+  "image": "/images/calculators/casio-fx-991ex.webp",
+  "alt_text": "Casio fx-991EX ClassWiz scientific calculator",
+  "type": "scientific",
+  "features": {
+    "graphing": false,
+    "programmable": false,
+    "symbolic": false,
+    "examMode": false,
+    "cas": false
+  },
+  "notes": "Popular scientific calculator allowed in most exams worldwide. Features 552 functions including spreadsheet calculations and QR code generation. No programming or graphing capabilities make it exam-safe.",
+  "related_models": ["casio-fx-991es-plus", "casio-fx-83gtx", "casio-fx-85gtx"]
+}

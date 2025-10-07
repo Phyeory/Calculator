@@ -1,0 +1,17 @@
+{
+  "slug": "ti-nspire-cx-ii",
+  "brand": "Texas Instruments",
+  "model": "TI-Nspire CX II",
+  "image": "/images/calculators/ti-nspire-cx-ii.webp",
+  "alt_text": "Texas Instruments TI-Nspire CX II graphing calculator",
+  "type": "graphing",
+  "features": {
+    "graphing": true,
+    "programmable": true,
+    "symbolic": false,
+    "examMode": true,
+    "cas": false
+  },
+  "notes": "Advanced graphing calculator with Press-to-Test mode. Allowed in SAT, ACT, IB (non-CAS version only). Features color display, multiple app functionality. CAS version banned in most exams.",
+  "related_models": ["ti-nspire-cx-ii-cas", "ti-nspire-cx"]
+}

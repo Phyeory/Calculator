@@ -1,0 +1,15 @@
+{
+  "slug": "neet",
+  "name": "NEET (India)",
+  "regions": ["India"],
+  "last_updated": "2025-07-15",
+  "notes": "No calculators permitted in NEET examination. Students must perform all calculations manually.",
+  "allowed": [],
+  "banned": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "all-calculators"],
+  "official_links": [
+    {
+      "title": "NEET Exam Guidelines",
+      "url": "https://neet.nta.nic.in/"
+    }
+  ]
+}

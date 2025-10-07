@@ -1,0 +1,17 @@
+{
+  "slug": "ti-nspire-cx-ii-cas",
+  "brand": "Texas Instruments",
+  "model": "TI-Nspire CX II CAS",
+  "image": "/images/calculators/ti-nspire-cx-ii-cas.webp",
+  "alt_text": "Texas Instruments TI-Nspire CX II CAS graphing calculator",
+  "type": "graphing",
+  "features": {
+    "graphing": true,
+    "programmable": true,
+    "symbolic": true,
+    "examMode": true,
+    "cas": true
+  },
+  "notes": "Computer Algebra System (CAS) version. Banned in IB, GCSE, A-Level. Allowed in SAT and ACT. Can solve equations symbolically and manipulate algebraic expressions.",
+  "related_models": ["ti-nspire-cx-ii", "ti-89-titanium"]
+}

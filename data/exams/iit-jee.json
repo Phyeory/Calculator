@@ -1,0 +1,15 @@
+{
+  "slug": "iit-jee",
+  "name": "IIT-JEE (India)",
+  "regions": ["India"],
+  "last_updated": "2025-07-15",
+  "notes": "No calculators allowed in JEE Main or JEE Advanced. All calculations must be done manually or mentally.",
+  "allowed": [],
+  "banned": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "all-calculators"],
+  "official_links": [
+    {
+      "title": "JEE Main Exam Guidelines",
+      "url": "https://jeemain.nta.nic.in/"
+    }
+  ]
+}

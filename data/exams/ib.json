@@ -1,0 +1,25 @@
+{
+  "slug": "ib",
+  "name": "IB (International Baccalaureate)",
+  "regions": ["International"],
+  "last_updated": "2025-08-15",
+  "notes": "IB allows specific calculator models. Graphing calculators permitted in higher level maths. Must not have symbolic algebra or CAS.",
+  "allowed": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii", "ti-nspire-cx-ii"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Allowed but must be in exam mode (Press Mode Test). No symbolic algebra functions."
+    },
+    {
+      "model": "ti-nspire-cx-ii",
+      "condition": "Non-CAS version only. Must be in Press-to-Test mode with specific settings."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime", "casio-classpad", "ti-89-titanium"],
+  "official_links": [
+    {
+      "title": "IB Calculator Policy",
+      "url": "https://www.ibo.org/programmes/diploma-programme/assessment-and-exams/calculator-policy/"
+    }
+  ]
+}

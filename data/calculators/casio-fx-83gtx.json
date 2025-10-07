@@ -1,0 +1,17 @@
+{
+  "slug": "casio-fx-83gtx",
+  "brand": "Casio",
+  "model": "fx-83GT X",
+  "image": "/images/calculators/casio-fx-83gtx.webp",
+  "alt_text": "Casio fx-83GT X scientific calculator",
+  "type": "scientific",
+  "features": {
+    "graphing": false,
+    "programmable": false,
+    "symbolic": false,
+    "examMode": false,
+    "cas": false
+  },
+  "notes": "Approved for UK GCSE, A-Level, and other exams. ClassWiz display with natural textbook format. 276 functions including statistics and spreadsheets.",
+  "related_models": ["casio-fx-85gtx", "casio-fx-991ex"]
+}
