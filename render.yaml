@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: is-my-calculator-allowed
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production

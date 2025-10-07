@@ -1,0 +1,22 @@
+{
+  "slug": "matura-austria",
+  "name": "Matura - Austria",
+  "regions": ["Austria"],
+  "boards": ["Austrian Federal Ministry of Education"],
+  "last_updated": "2025-10-01",
+  "notes": "Approved calculators are required for Mathematics Matura. Both graphing and CAS calculators are allowed if on approved list. Technology-enabled examination format.",
+  "allowed": ["casio-fx-991ex", "ti-84-plus-ce", "casio-fx-9860giii", "ti-nspire-cx-ii", "casio-fx-cg50"],
+  "conditional": [
+    {
+      "model": "ti-nspire-cx-ii-cas",
+      "condition": "Allowed for Mathematics if on approved calculator list. Must comply with exam mode requirements."
+    }
+  ],
+  "banned": [],
+  "official_links": [
+    {
+      "title": "Matura Calculator Regulations",
+      "url": "https://www.bmbwf.gv.at"
+    }
+  ]
+}

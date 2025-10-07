@@ -1,0 +1,26 @@
+{
+  "slug": "abitur",
+  "name": "Abitur - Germany",
+  "regions": ["Germany"],
+  "boards": ["State Education Ministries (varies by Bundesland)"],
+  "last_updated": "2025-10-01",
+  "notes": "Graphing calculators are generally allowed and often required for Mathematics. CAS calculators may be allowed in some states. Check specific state (Bundesland) regulations. Calculator must be approved by the examination authority.",
+  "allowed": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii", "ti-nspire-cx-ii"],
+  "conditional": [
+    {
+      "model": "ti-nspire-cx-ii-cas",
+      "condition": "Allowed in some Bundesländer (states) for Mathematics. Must be approved. Check state-specific rules."
+    },
+    {
+      "model": "casio-fx-cg50",
+      "condition": "Allowed in most states for advanced mathematics. Must be on approved list."
+    }
+  ],
+  "banned": [],
+  "official_links": [
+    {
+      "title": "KMK Abitur Guidelines",
+      "url": "https://www.kmk.org"
+    }
+  ]
+}

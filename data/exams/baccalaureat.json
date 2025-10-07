@@ -1,0 +1,30 @@
+{
+  "slug": "baccalaureat",
+  "name": "Baccalauréat (Bac) - France",
+  "regions": ["France"],
+  "boards": ["French Ministry of National Education"],
+  "last_updated": "2025-10-01",
+  "notes": "Calculators are allowed for Mathematics and Science subjects. Both scientific and graphing calculators are permitted. CAS calculators may be restricted. Calculator must be in exam mode with memory cleared.",
+  "allowed": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii", "ti-nspire-cx-ii"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Must be in exam mode (Mode Examen) with LED indicator active during examination."
+    },
+    {
+      "model": "ti-nspire-cx-ii",
+      "condition": "Must be in exam mode. Memory must be cleared and verified by proctor."
+    },
+    {
+      "model": "casio-fx-cg50",
+      "condition": "Allowed if in exam mode with all data erased."
+    }
+  ],
+  "banned": [],
+  "official_links": [
+    {
+      "title": "Calculatrice au Baccalauréat",
+      "url": "https://www.education.gouv.fr"
+    }
+  ]
+}

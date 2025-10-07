@@ -1,0 +1,26 @@
+{
+  "slug": "stpm",
+  "name": "STPM (Sijil Tinggi Persekolahan Malaysia)",
+  "regions": ["Malaysia"],
+  "boards": ["MPM (Malaysian Examinations Council)"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators are allowed for Mathematics and Science subjects. Graphing calculators may be allowed for specific subjects. Calculators with communication features are banned.",
+  "allowed": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Allowed for Mathematics T and Further Mathematics. Memory must be cleared before exam."
+    },
+    {
+      "model": "casio-fx-9860giii",
+      "condition": "Allowed for specific mathematics papers with prior approval."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime"],
+  "official_links": [
+    {
+      "title": "MPM Examination Rules",
+      "url": "https://www.mpm.edu.my"
+    }
+  ]
+}

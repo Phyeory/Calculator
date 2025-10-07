@@ -1,0 +1,17 @@
+{
+  "slug": "kcse",
+  "name": "KCSE (Kenya Certificate of Secondary Education)",
+  "regions": ["Kenya", "East Africa"],
+  "boards": ["KNEC (Kenya National Examinations Council)"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators allowed for Mathematics and Science subjects. Calculators must be silent and non-programmable. No graphing calculators allowed.",
+  "allowed": ["casio-fx-82", "casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs"],
+  "conditional": [],
+  "banned": ["ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "ti-84-plus-ce", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "KNEC Examination Regulations",
+      "url": "https://www.knec.ac.ke"
+    }
+  ]
+}

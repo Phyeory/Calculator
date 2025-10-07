@@ -1,0 +1,17 @@
+{
+  "slug": "japan-center-test",
+  "name": "National Center Test for University Admissions - Japan",
+  "regions": ["Japan"],
+  "boards": ["DNCES (National Center for University Entrance Examinations)"],
+  "last_updated": "2025-10-01",
+  "notes": "Calculator use is PROHIBITED in the National Center Test. No calculators are allowed during mathematics or science examinations.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "Center Test Regulations",
+      "url": "https://www.dnc.ac.jp"
+    }
+  ]
+}

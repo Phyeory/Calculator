@@ -61,7 +61,7 @@ export default function SearchPage() {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Type calculator model (e.g., fx-991EX) or exam name..."
+              placeholder="Search anything: fx991, ti 84, casio, sat, gcse, a-level..."
               className="w-full px-6 py-4 text-lg border-2 border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white"
               autoFocus
             />
@@ -147,27 +147,30 @@ export default function SearchPage() {
                 <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <h3 className="mt-2 text-sm font-medium text-gray-900 dark:text-white">No results found</h3>
+                <h3 className="mt-2 text-sm font-medium text-gray-900 dark:text-white">No results found for "{query}"</h3>
                 <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                  Try searching for a calculator model like "fx-991EX" or an exam like "SAT"
+                  Try different keywords or check the examples below
                 </p>
+                <div className="mt-4 flex flex-wrap gap-2 justify-center">
+                  <button onClick={() => setQuery('fx991')} className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600">
+                    fx991
+                  </button>
+                  <button onClick={() => setQuery('ti84')} className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600">
+                    ti84
+                  </button>
+                  <button onClick={() => setQuery('sat')} className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600">
+                    sat
+                  </button>
+                  <button onClick={() => setQuery('gcse')} className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600">
+                    gcse
+                  </button>
+                </div>
               </div>
             )}
           </div>
         )}
 
-        {/* Instructions */}
-        {query.length < 2 && (
-          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6">
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Search Tips:</h3>
-            <ul className="list-disc list-inside space-y-1 text-sm text-gray-700 dark:text-gray-300">
-              <li>Enter at least 2 characters to search</li>
-              <li>Search by calculator model (e.g., "fx-991EX", "TI-84")</li>
-              <li>Search by brand (e.g., "Casio", "Texas Instruments")</li>
-              <li>Search by exam name (e.g., "GCSE", "SAT", "IB")</li>
-            </ul>
-          </div>
-        )}
+
       </div>
     </main>
   );

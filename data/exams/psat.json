@@ -1,0 +1,22 @@
+{
+  "slug": "psat",
+  "name": "PSAT (Preliminary SAT)",
+  "regions": ["United States"],
+  "boards": ["College Board"],
+  "last_updated": "2025-10-01",
+  "notes": "Approved calculators are allowed ONLY on the Math Test - Calculator section. Scientific and approved graphing calculators permitted. Calculator must be on College Board approved list. Same policy as SAT.",
+  "allowed": ["casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii", "ti-nspire-cx-ii"],
+  "conditional": [
+    {
+      "model": "ti-nspire-cx-ii",
+      "condition": "Allowed but CAS functionality must be disabled. Non-CAS version only."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime", "casio-fx-cg50"],
+  "official_links": [
+    {
+      "title": "College Board Calculator Policy",
+      "url": "https://collegereadiness.collegeboard.org/psat-nmsqt/taking-the-test/calculator-policy"
+    }
+  ]
+}

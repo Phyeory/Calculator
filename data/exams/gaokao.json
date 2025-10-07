@@ -1,0 +1,17 @@
+{
+  "slug": "gaokao",
+  "name": "Gaokao (National Higher Education Entrance Examination) - China",
+  "regions": ["China"],
+  "boards": ["Ministry of Education of China"],
+  "last_updated": "2025-10-01",
+  "notes": "Calculator use is STRICTLY PROHIBITED in Gaokao examinations. No calculators of any type are allowed during the mathematics or science portions of the exam.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "Gaokao Examination Rules",
+      "url": "http://www.moe.gov.cn"
+    }
+  ]
+}

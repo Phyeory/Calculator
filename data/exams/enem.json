@@ -1,0 +1,17 @@
+{
+  "slug": "enem",
+  "name": "ENEM (Exame Nacional do Ensino Médio) - Brazil",
+  "regions": ["Brazil"],
+  "boards": ["INEP (National Institute of Educational Studies and Research)"],
+  "last_updated": "2025-10-01",
+  "notes": "Calculators are NOT allowed in ENEM. No electronic devices including calculators, smartphones, or smartwatches are permitted during the examination.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "ENEM Regulations",
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "gate",
+  "name": "GATE (Graduate Aptitude Test in Engineering)",
+  "regions": ["India"],
+  "boards": ["IIT (Indian Institutes of Technology)"],
+  "last_updated": "2025-10-01",
+  "notes": "Personal calculators are NOT allowed. GATE provides a virtual on-screen scientific calculator during the computer-based examination. Candidates cannot bring their own calculators.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "GATE Virtual Calculator",
+      "url": "http://gate.iitm.ac.in"
+    }
+  ]
+}

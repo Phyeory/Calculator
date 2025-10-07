@@ -1,0 +1,30 @@
+{
+  "slug": "nsc",
+  "name": "NSC (National Senior Certificate) - South Africa",
+  "regions": ["South Africa"],
+  "boards": ["DBE (Department of Basic Education)"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators are allowed for Mathematics, Mathematical Literacy, and Physical Sciences. Graphing calculators with certain functions may be allowed. Calculators must not have communication capabilities or internet access.",
+  "allowed": ["casio-fx-82", "casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Allowed but must be in exam mode. No programs or notes stored. Memory must be cleared."
+    },
+    {
+      "model": "casio-fx-9860giii",
+      "condition": "Allowed if in exam mode with memory cleared."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime"],
+  "official_links": [
+    {
+      "title": "DBE Examination Guidelines",
+      "url": "https://www.education.gov.za"
+    },
+    {
+      "title": "NSC Calculator Policy",
+      "url": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx"
+    }
+  ]
+}

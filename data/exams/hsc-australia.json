@@ -1,0 +1,26 @@
+{
+  "slug": "hsc-australia",
+  "name": "HSC (Higher School Certificate) - Australia",
+  "regions": ["New South Wales", "Australia"],
+  "boards": ["NESA (NSW Education Standards Authority)"],
+  "last_updated": "2025-10-01",
+  "notes": "Approved calculators are permitted for Mathematics examinations. Both scientific and approved graphing calculators allowed. CAS calculators are restricted. Calculator must be on NESA approved list.",
+  "allowed": ["casio-fx-82", "casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Approved for Mathematics Advanced and Extension. Must be on NESA approved calculator list."
+    },
+    {
+      "model": "casio-fx-9860giii",
+      "condition": "Approved for Mathematics Extension courses only."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime"],
+  "official_links": [
+    {
+      "title": "NESA Approved Calculator List",
+      "url": "https://educationstandards.nsw.edu.au"
+    }
+  ]
+}

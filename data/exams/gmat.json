@@ -1,0 +1,17 @@
+{
+  "slug": "gmat",
+  "name": "GMAT (Graduate Management Admission Test)",
+  "regions": ["Worldwide"],
+  "boards": ["GMAC (Graduate Management Admission Council)"],
+  "last_updated": "2025-10-01",
+  "notes": "Personal calculators are NOT allowed. The GMAT provides an on-screen calculator for the Integrated Reasoning section only. The Quantitative section does NOT allow any calculator.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "GMAT Exam Policies",
+      "url": "https://www.mba.com/exams/gmat-exam/prepare-for-the-gmat-exam/gmat-exam-structure"
+    }
+  ]
+}

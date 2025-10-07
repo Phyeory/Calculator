@@ -1,0 +1,17 @@
+{
+  "slug": "mcat",
+  "name": "MCAT (Medical College Admission Test)",
+  "regions": ["United States", "Canada"],
+  "boards": ["AAMC (Association of American Medical Colleges)"],
+  "last_updated": "2025-10-01",
+  "notes": "Calculators are NOT allowed on the MCAT. No calculators of any type, including scientific or graphing calculators, are permitted during any section of the exam.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "MCAT Exam Policies",
+      "url": "https://students-residents.aamc.org/mcat-exam-day/mcat-exam-day-policies"
+    }
+  ]
+}

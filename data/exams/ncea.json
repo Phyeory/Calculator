@@ -1,0 +1,22 @@
+{
+  "slug": "ncea",
+  "name": "NCEA (National Certificate of Educational Achievement) - New Zealand",
+  "regions": ["New Zealand"],
+  "boards": ["NZQA (New Zealand Qualifications Authority)"],
+  "last_updated": "2025-10-01",
+  "notes": "Approved calculators are allowed for Mathematics and Statistics standards. Both scientific and graphics calculators permitted. Calculator must be on NZQA approved list. CAS calculators are banned.",
+  "allowed": ["casio-fx-82", "casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Approved for Level 2 and Level 3 Mathematics. Must be on NZQA approved calculator list."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime", "casio-fx-cg50"],
+  "official_links": [
+    {
+      "title": "NZQA Approved Calculator List",
+      "url": "https://www.nzqa.govt.nz/ncea/understanding-ncea/approved-calculators/"
+    }
+  ]
+}

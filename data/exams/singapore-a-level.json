@@ -1,0 +1,30 @@
+{
+  "slug": "singapore-a-level",
+  "name": "GCE A-Level - Singapore",
+  "regions": ["Singapore"],
+  "boards": ["SEAB (Singapore Examinations and Assessment Board)", "Cambridge Assessment International Education"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators are allowed for H1, H2, and H3 Mathematics. Approved graphing calculators are permitted. Models must be on SEAB approved list. CAS calculators are generally not allowed.",
+  "allowed": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "casio-fx-9860giii"],
+  "conditional": [
+    {
+      "model": "ti-84-plus-ce",
+      "condition": "Approved for A-Level Mathematics. Must be on SEAB approved calculator list."
+    },
+    {
+      "model": "casio-fx-9860giii",
+      "condition": "Approved for H2 and H3 Mathematics only."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii-cas", "hp-prime"],
+  "official_links": [
+    {
+      "title": "SEAB Approved Calculator List",
+      "url": "https://www.seab.gov.sg"
+    },
+    {
+      "title": "A-Level Examination Regulations",
+      "url": "https://www.seab.gov.sg/home/examinations/gce-a-level"
+    }
+  ]
+}

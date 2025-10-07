@@ -1,0 +1,17 @@
+{
+  "slug": "ged",
+  "name": "GED (General Educational Development)",
+  "regions": ["United States", "Canada"],
+  "boards": ["GED Testing Service"],
+  "last_updated": "2025-10-01",
+  "notes": "The GED test provides an on-screen calculator for the Mathematical Reasoning test. Personal calculators are NOT allowed. The TI-30XS MultiView calculator is available on-screen.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "GED Calculator Policy",
+      "url": "https://ged.com/about_test/test_subjects/mathematical_reasoning/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "uace",
+  "name": "UACE (Uganda Advanced Certificate of Education)",
+  "regions": ["Uganda", "East Africa"],
+  "boards": ["UNEB (Uganda National Examinations Board)"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators are allowed for Mathematics and Physics. Programmable and graphing calculators are banned. Calculator must not have text storage or communication features.",
+  "allowed": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs"],
+  "conditional": [
+    {
+      "model": "casio-fx-991ex",
+      "condition": "Allowed but must be non-programmable version. Memory must be cleared before exam."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "ti-84-plus-ce"],
+  "official_links": [
+    {
+      "title": "UNEB Exam Regulations",
+      "url": "https://www.uneb.ac.ug"
+    }
+  ]
+}

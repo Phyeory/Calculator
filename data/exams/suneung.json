@@ -1,0 +1,17 @@
+{
+  "slug": "suneung",
+  "name": "Suneung (College Scholastic Ability Test, CSAT) - South Korea",
+  "regions": ["South Korea"],
+  "boards": ["KICE (Korea Institute for Curriculum and Evaluation)"],
+  "last_updated": "2025-10-01",
+  "notes": "Calculators are NOT allowed in Suneung. All sections, including Mathematics, must be completed without calculator assistance.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "CSAT Information",
+      "url": "https://www.kice.re.kr"
+    }
+  ]
+}

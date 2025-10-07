@@ -1,0 +1,26 @@
+{
+  "slug": "wassce",
+  "name": "WASSCE (West African Senior School Certificate Examination)",
+  "regions": ["Nigeria", "Ghana", "Sierra Leone", "Gambia", "Liberia"],
+  "boards": ["WAEC (West African Examinations Council)"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators are permitted for Mathematics and Science examinations. Graphing and programmable calculators are prohibited. Calculators must not have communication or text storage capabilities.",
+  "allowed": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-30xb"],
+  "conditional": [
+    {
+      "model": "casio-fx-991ex",
+      "condition": "Allowed for Mathematics and Further Mathematics. Must be scientific, non-programmable version."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "ti-84-plus-ce", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "WAEC Calculator Policy",
+      "url": "https://www.waecnigeria.org"
+    },
+    {
+      "title": "WAEC Ghana Regulations",
+      "url": "https://www.waecgh.org"
+    }
+  ]
+}

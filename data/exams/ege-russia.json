@@ -1,0 +1,22 @@
+{
+  "slug": "ege-russia",
+  "name": "EGE (Unified State Exam) - Russia",
+  "regions": ["Russia"],
+  "boards": ["Federal Education and Science Supervision Service"],
+  "last_updated": "2025-10-01",
+  "notes": "Simple calculators are allowed for Physics, Chemistry, and Geography exams. Scientific calculators are generally prohibited. Calculator must not have programmable capabilities or text storage.",
+  "allowed": ["ti-30xs"],
+  "conditional": [
+    {
+      "model": "casio-fx-991ex",
+      "condition": "May be prohibited in some regions. Check specific examination requirements. Simple scientific calculators only."
+    }
+  ],
+  "banned": ["ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "EGE Official Portal",
+      "url": "http://ege.edu.ru"
+    }
+  ]
+}

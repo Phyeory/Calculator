@@ -1,0 +1,22 @@
+{
+  "slug": "aissce",
+  "name": "AISSCE (All India Senior School Certificate Examination)",
+  "regions": ["India"],
+  "boards": ["CBSE (Central Board of Secondary Education)"],
+  "last_updated": "2025-10-01",
+  "notes": "Scientific calculators are allowed for Mathematics and Science subjects. Programmable and graphing calculators are banned. Calculators must be silent, battery-operated, and without printout facilities.",
+  "allowed": ["casio-fx-82", "casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs"],
+  "conditional": [
+    {
+      "model": "casio-fx-991ex",
+      "condition": "Allowed for Class 12 Mathematics and Science. Must be scientific, non-programmable."
+    }
+  ],
+  "banned": ["ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "ti-84-plus-ce", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "CBSE Examination Bye-Laws",
+      "url": "https://www.cbse.gov.in"
+    }
+  ]
+}

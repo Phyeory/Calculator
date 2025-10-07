@@ -1,0 +1,17 @@
+{
+  "slug": "gre",
+  "name": "GRE (Graduate Record Examinations)",
+  "regions": ["Worldwide"],
+  "boards": ["ETS (Educational Testing Service)"],
+  "last_updated": "2025-10-01",
+  "notes": "Personal calculators are NOT allowed. The GRE provides an on-screen calculator for the Quantitative Reasoning section. Candidates cannot bring their own calculators.",
+  "allowed": [],
+  "conditional": [],
+  "banned": ["casio-fx-83gtx", "casio-fx-85gtx", "casio-fx-991ex", "ti-30xs", "ti-84-plus-ce", "ti-nspire-cx-ii", "ti-nspire-cx-ii-cas", "casio-fx-cg50", "hp-prime", "casio-fx-9860giii"],
+  "official_links": [
+    {
+      "title": "GRE Calculator Policy",
+      "url": "https://www.ets.org/gre/test-takers/general-test/prepare/content/calculator-use.html"
+    }
+  ]
+}

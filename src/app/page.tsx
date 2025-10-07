@@ -4,15 +4,60 @@ import { getAllExams } from '@/lib/data';
 export default function HomePage() {
   const exams = getAllExams();
   
-  // Group exams by region
-  const examsByRegion = exams.reduce((acc, exam) => {
-    const region = exam.regions[0];
-    if (!acc[region]) {
-      acc[region] = [];
+  // Define regional groupings with continent headers
+  const regionalGroups = {
+    'North America': ['United States', 'Canada', 'USA', 'US'],
+    'Europe': ['UK', 'United Kingdom', 'Germany', 'France', 'Austria', 'Netherlands', 'Italy', 'Switzerland', 'Poland', 'Russia'],
+    'Asia': ['India', 'China', 'Japan', 'South Korea', 'Singapore', 'Malaysia', 'Pakistan', 'Hong Kong'],
+    'Africa': ['Uganda', 'Kenya', 'Nigeria', 'Ghana', 'South Africa', 'West Africa', 'East Africa'],
+    'Oceania': ['Australia', 'New South Wales', 'New Zealand'],
+    'South America': ['Brazil', 'Colombia', 'Peru'],
+    'Worldwide': ['Worldwide', 'International']
+  };
+
+  // Categorize exams by continent
+  const examsByContinent: Record<string, typeof exams> = {};
+  
+  exams.forEach((exam) => {
+    const firstRegion = exam.regions[0];
+    let assigned = false;
+    
+    for (const [continent, regions] of Object.entries(regionalGroups)) {
+      if (regions.some(r => firstRegion.includes(r) || r.includes(firstRegion))) {
+        if (!examsByContinent[continent]) {
+          examsByContinent[continent] = [];
+        }
+        examsByContinent[continent].push(exam);
+        assigned = true;
+        break;
+      }
     }
-    acc[region].push(exam);
-    return acc;
-  }, {} as Record<string, typeof exams>);
+    
+    // If not assigned to any continent, add to Worldwide
+    if (!assigned) {
+      if (!examsByContinent['Worldwide']) {
+        examsByContinent['Worldwide'] = [];
+      }
+      examsByContinent['Worldwide'].push(exam);
+    }
+  });
+  
+  // Sort order for continents
+  const continentOrder = ['North America', 'Europe', 'Asia', 'Africa', 'Oceania', 'South America', 'Worldwide'];
+  
+  // Helper function to get continent emoji
+  const getContinentEmoji = (continent: string) => {
+    const emojiMap: Record<string, string> = {
+      'North America': '🌎',
+      'South America': '🌎',
+      'Europe': '🌍',
+      'Africa': '🌍',
+      'Asia': '🌏',
+      'Oceania': '🌏',
+      'Worldwide': '🌐'
+    };
+    return emojiMap[continent] || '🌍';
+  };
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
@@ -31,11 +76,18 @@ export default function HomePage() {
           <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
             Is your calculator allowed in this exam?
           </h2>
-          <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
-            Before every exam students ask the same thing: "Can I use my calculator?" 
-            This site lists allowed and banned models per exam board worldwide. 
-            Select your exam or type your model to check verified rules and official sources.
+          <p className="mt-3 max-w-3xl mx-auto text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
+            Comprehensive calculator rules for 40+ exams worldwide. From GCSE to SAT, JEE to Abitur, 
+            Gaokao to NCEA – check verified policies for allowed, banned, and conditional calculators 
+            with official exam board sources.
           </p>
+          <div className="mt-4 flex justify-center gap-4 text-sm text-gray-600 dark:text-gray-400">
+            <span>🌍 40+ Exams</span>
+            <span>•</span>
+            <span>🌎 6 Continents</span>
+            <span>•</span>
+            <span>📚 Official Sources</span>
+          </div>
         </div>
 
         {/* Quick Search */}
@@ -57,37 +109,42 @@ export default function HomePage() {
       {/* Exams by Region */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-          Browse by Exam
+          Browse by Region
         </h3>
 
-        {Object.entries(examsByRegion).map(([region, regionExams]) => (
-          <div key={region} className="mb-8">
-            <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4">
-              {region}
+        {continentOrder
+          .filter(continent => examsByContinent[continent]?.length > 0)
+          .map(continent => (
+          <div key={continent} className="mb-10">
+            <h4 className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-4 flex items-center">
+              <span className="mr-2">{getContinentEmoji(continent)}</span>
+              {continent}
             </h4>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {regionExams.map((exam) => (
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {examsByContinent[continent].map((exam) => (
                 <Link
                   key={exam.slug}
                   href={`/exam/${exam.slug}`}
-                  className="block p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-600"
+                  className="block p-5 bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-xl transition-all border border-gray-200 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400"
                 >
-                  <h5 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                  <h5 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
                     {exam.name}
                   </h5>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
-                    {exam.boards ? exam.boards.join(', ') : region}
+                  <p className="text-xs text-gray-600 dark:text-gray-400 mb-3 line-clamp-1">
+                    {exam.boards ? exam.boards.join(', ') : exam.regions.join(', ')}
                   </p>
-                  <p className="text-xs text-gray-500 dark:text-gray-500">
-                    Last updated: {exam.last_updated}
-                  </p>
-                  <div className="mt-4 flex gap-2">
-                    <span className="badge-allowed">
-                      {exam.allowed.length} Allowed
+                  <div className="flex gap-2 flex-wrap">
+                    <span className="badge-allowed text-xs">
+                      ✓ {exam.allowed.length}
                     </span>
-                    <span className="badge-banned">
-                      {exam.banned.length} Banned
+                    <span className="badge-banned text-xs">
+                      ✗ {exam.banned.length}
                     </span>
+                    {exam.conditional && exam.conditional.length > 0 && (
+                      <span className="badge-conditional text-xs">
+                        ⚠ {exam.conditional.length}
+                      </span>
+                    )}
                   </div>
                 </Link>
               ))}
