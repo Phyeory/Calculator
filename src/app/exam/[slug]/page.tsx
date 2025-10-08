@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getExamBySlug, getExamSlugs, getCalculatorsForExam } from '@/lib/data';
 import { generateExamFAQSchema, generateItemListSchema, generateBreadcrumbSchema } from '@/lib/schema';
@@ -130,14 +129,6 @@ export default async function ExamPage({ params }: Props) {
                   href={`/calculator/${calc.slug}`}
                   className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-4 border-2 border-green-200 dark:border-green-800"
                 >
-                  <div className="aspect-video relative mb-4 bg-gray-100 dark:bg-gray-700 rounded">
-                    <Image
-                      src={calc.image}
-                      alt={calc.alt_text || `${calc.brand} ${calc.model}`}
-                      fill
-                      className="object-contain p-4"
-                    />
-                  </div>
                   <span className="badge-allowed mb-2">Allowed</span>
                   <h3 className="font-semibold text-gray-900 dark:text-white">{calc.brand} {calc.model}</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{calc.type}</p>
@@ -162,14 +153,6 @@ export default async function ExamPage({ params }: Props) {
                     key={calc.slug}
                     className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 border-2 border-yellow-200 dark:border-yellow-800"
                   >
-                    <div className="aspect-video relative mb-4 bg-gray-100 dark:bg-gray-700 rounded">
-                      <Image
-                        src={calc.image}
-                        alt={calc.alt_text || `${calc.brand} ${calc.model}`}
-                        fill
-                        className="object-contain p-4"
-                      />
-                    </div>
                     <span className="badge-conditional mb-2">Conditional</span>
                     <h3 className="font-semibold text-gray-900 dark:text-white">{calc.brand} {calc.model}</h3>
                     {condition && (
@@ -204,14 +187,6 @@ export default async function ExamPage({ params }: Props) {
                   href={`/calculator/${calc.slug}`}
                   className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-4 border-2 border-red-200 dark:border-red-800 opacity-75"
                 >
-                  <div className="aspect-video relative mb-4 bg-gray-100 dark:bg-gray-700 rounded">
-                    <Image
-                      src={calc.image}
-                      alt={calc.alt_text || `${calc.brand} ${calc.model}`}
-                      fill
-                      className="object-contain p-4 grayscale"
-                    />
-                  </div>
                   <span className="badge-banned mb-2">Banned</span>
                   <h3 className="font-semibold text-gray-900 dark:text-white">{calc.brand} {calc.model}</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{calc.type}</p>

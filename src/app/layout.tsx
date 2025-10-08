@@ -13,6 +13,17 @@ export const metadata: Metadata = {
     google: "YOUR_GOOGLE_VERIFICATION_CODE_HERE" // Replace with actual code from Google Search Console
   },
   metadataBase: new URL('https://ismycalculatorallowed.com'), // Replace with your actual domain
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/calculator-icon.png', sizes: '512x512', type: 'image/png' }
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }
+    ],
+    shortcut: '/calculator-icon.png'
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -22,10 +33,10 @@ export const metadata: Metadata = {
     description: "Check if your calculator is allowed in any exam worldwide",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Is My Calculator Allowed"
+        url: "/calculator-icon.png",
+        width: 512,
+        height: 512,
+        alt: "Is My Calculator Allowed - Calculator Icon"
       }
     ]
   },
@@ -33,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Is my calculator allowed? — Global exam calculator rules 2025",
     description: "Check if your calculator is allowed in any exam worldwide",
-    images: ["/og-image.png"]
+    images: ["/calculator-icon.png"]
   },
   robots: {
     index: true,
